@@ -1,0 +1,20 @@
+body {
+  
+    margin: 0; /* Removes default margins */
+    height: 100vh; /* Full viewport height */
+    display: flex; /* Flexbox for centering */
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+align-self: center;
+background-color: rgb(145, 211, 220);
+opacity: 0.7;
+max-width: 400px;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+width: 100%;
+}
