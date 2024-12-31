@@ -1,0 +1,98 @@
+body {
+  background-image: url('https://png.pngtree.com/background/20230403/original/pngtree-spring-nature-flowers-forest-grass-cartoon-advertising-background-picture-image_2273366.jpg');
+  background-size: cover; /* Ensures the image covers the entire viewport */
+  background-position: center; /* Centers the image */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  margin: 0;
+  height: 100vh; /* Ensures the body takes up the full height of the viewport */
+  font-family: Arial, sans-serif;
+}
+
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; 
+  width: 100%; 
+  background-color: rgb(234, 164, 146);
+  padding: 10px 20px; 
+  box-sizing: border-box;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  text-decoration: none;
+}
+
+.logo {
+  height: 50px; /* Adjust size as needed */
+  border-radius: 50%; 
+  object-fit: cover;
+  margin-right: 10px; /* Space between logo and text */
+}
+
+.logo-text {
+  color: aliceblue;
+  font-size: large;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.nav-links {
+  display: flex;
+  flex: 2;
+  justify-content: flex-end;
+}
+
+.nav-item {
+  color: aliceblue;
+  text-decoration: none;
+  font-size: large;
+  font-weight: bold;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  margin-left: 20px; /* Space between navigation items */
+  text-decoration: none;
+}
+
+p{
+  color: rgb(211, 134, 46);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+  
+}
+
+h1{
+  color: rgb(211, 134, 46);
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  padding: 50px;
+  font-size: xx-large;
+  font-weight: bold;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  color: rgb(211, 134, 46);
+  position: fixed;
+  bottom: 0; 
+  width: 100%; 
+ }
+
+ ol.roman {
+  list-style-type: upper-roman; /* Use Roman numerals */
+}
+
+ul.symbols {
+  list-style-type: none; /* Remove default bullets */
+}
+
+ul.symbols li::before {
+  content: "\2713"; 
+  position: relative; 
+  left: 0; 
+}
+
