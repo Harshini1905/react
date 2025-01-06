@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Media Query</title>
+  <style>
+  
+    img {
+      width: 100%; /* Make the images responsive */
+      max-width: 400px; /* Set a consistent max width */
+      height: 200px; /* Set a consistent height */
+       /* Ensures the images are cropped evenly if needed */
+      border: 2px solid #ccc;
+      margin: 20px; /* Add spacing between images */
+    }
+
+    /* Media query for screens smaller than 600px */
+    @media (max-width: 600px) {
+      img {
+        max-width: 100%; /* Let the images take full width */
+        height: auto; /* Maintain aspect ratio */
+        border: 3px solid #f72cf7; /* Add a thicker border for smaller screens */
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Responsive Images Example</h1>
+  <img src="https://tse2.mm.bing.net/th?id=OIP.-CZWVjlcSWe7dORAg2iUlgHaD2&pid=Api&P=0&h=180" alt="Example Image">
+  <img src="https://tse4.mm.bing.net/th?id=OIP.BXJr_ZQib_TeZnkEA3K65AHaEK&pid=Api&P=0&h=180" alt="Example Image">
+  <img src="https://png.pngtree.com/thumb_back/fw800/background/20230511/pngtree-nature-background-sunset-wallpaer-with-beautiful-flower-farms-image_2592160.jpg" alt="Example Image">
+  <img src="https://tse2.mm.bing.net/th?id=OIP.qcjzwjCCDn-FfbU3NziYwQHaEo&pid=Api&P=0&h=180" alt="Example Image">
+  <img src="https://designpickle-resources.s3.us-east-2.amazonaws.com/2020/Zoom+Backgrounds/April/20_DesignPickle_Zoom_Background-11.jpg" alt="Example Image">
+  <img src="https://yanaphotography.co.uk/wp-content/uploads/2020/05/24-17559-post/Zoom_background_Canada_8_Yana_Photography_web.jpg" alt="Example Image">
+  <img src="http://www.pixelstalk.net/wp-content/uploads/2016/07/Desktop-hd-nice-nature-wallpapers-free-download.jpg" alt="Example Image">
+  <img src="https://www.pixelstalk.net/wp-content/uploads/2016/08/In-gods-country-best-premium-scenic-free-desktop-background.jpg" alt="Example Image">
+  <img src="https://wallpapercave.com/wp/wp3709137.jpg" alt="Example Image">
+</body>
+</html>
